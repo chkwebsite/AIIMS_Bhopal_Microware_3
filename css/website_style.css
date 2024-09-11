@@ -789,6 +789,7 @@ span.circle_pic {
 
 img.count-scount {
     position: absolute;
+    width: 60px;
 }
 
 .content-count-ft {
@@ -1091,6 +1092,20 @@ body {
 .goog-te-gadget .goog-te-combo option[value="gu"],
 .goog-te-gadget .goog-te-combo option[value="bn"] {
     display: block !important;
+}
+
+.marquee_ul li {
+    border-bottom: 1px dashed #c1c1c1;
+    margin-bottom: 15px;
+}
+
+.marquee_ul li:last-child {
+    margin-bottom: 0;
+}
+
+.marquee_ul {
+    padding-left: 0;
+    list-style: none;
 }
 
 
