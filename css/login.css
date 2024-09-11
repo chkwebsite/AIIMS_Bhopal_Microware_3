@@ -1,0 +1,117 @@
+.border-right_login {
+    border-left: 1px solid rgb(255 255 255 / 20%);
+}
+
+.password-txt {
+    position: relative;
+}
+
+.show-password {
+    position: absolute;
+    right: 15px;
+    top: 21px;
+    font-size: 15px;
+}
+
+
+/* *******************************03-09-2024**** */
+
+.padding-left40 {
+    padding-left: 40px;
+}
+
+img.absolute_icon_left {
+    position: absolute;
+    width: 15px;
+    position: absolute;
+    left: 12px;
+    top: 8px;
+}
+
+.supplier-registration .modal-dialog {
+    width: 447px;
+    padding: 30px;
+}
+
+.progress_for_registration {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.progress_for_registration .progress_menu-lt {
+    flex: 0 33.3%;
+    text-align: center;
+    position: relative;
+}
+
+.progress_for_registration .progress_menu-lt:before {
+    content: '';
+    position: absolute;
+    left: 71%;
+    width: 55%;
+    height: 2px;
+    background: #afafaf;
+    top: 12px;
+}
+
+.circle_dg {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #AFAFAF;
+    border-radius: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.circle_dg:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #AFAFAF;
+    width: 50%;
+    height: 50%;
+    border-radius: 100px;
+}
+
+.progress_for_registration .progress_menu-lt:last-child:before {
+    display: none;
+}
+
+.pr-text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 9px;
+}
+
+.progress_for_registration .progress_menu-lt.active .circle_dg {
+    border-color: #CD1F40;
+    box-shadow: 0 0 0px 9px #FFE3E8;
+}
+
+.progress_for_registration .progress_menu-lt.active .circle_dg:before {
+    background: #CD1F40;
+}
+
+.progress_for_registration .progress_menu-lt.active .pr-text {
+    font-weight: 600;
+    color: #cd1f40;
+}
+
+.input-otp {
+    display: flex;
+}
+
+.input-otp .form-control {
+    width: 38px;
+    text-align: center;
+}
+
+
+/* *******************************03-09-2024**** */
